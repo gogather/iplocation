@@ -6,6 +6,14 @@ import (
 	"net/http"
 )
 
+const (
+	_VERSION = "0.1.0307"
+)
+
+func Version() string {
+	return _VERSION
+}
+
 type IpLocation struct {
 	key string
 }
